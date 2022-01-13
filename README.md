@@ -1,4 +1,4 @@
 # Introduction
 
-**The shell script is porpuse for internal  initialize VM and foundation configure**
+**The purpose of this shell script is initialize internal VM and  configuration**
 
