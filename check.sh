@@ -11,7 +11,7 @@ ns1=`cat /etc/resolv.conf |grep nameserver | sed -n '1p' |awk '{print $2}'`
 ns2=`cat /etc/resolv.conf |grep nameserver | sed -n '2p' |awk '{print $2}'`
 host=`hostname`
 date=`date`
-disk=`df -h |sed -n '2p' |awk '{print $2}'`
+disk=`df -h /  |sed -n '2p' |awk '{print $2}'`
 
 
 echo ""
