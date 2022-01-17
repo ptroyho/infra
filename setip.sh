@@ -22,6 +22,10 @@ GATEWAY=
 EOF
 }
 
+echo "The current search interface is as follows : " 
+ip link show |grep -v "link" |awk -F ":" '{print $2}'
+
+
 read -p "Enter interface name : " interface
 
 if [[ $interface == "" ]];then
