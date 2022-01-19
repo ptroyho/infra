@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /root/infra_init/color
+source /root/infra/color
 
 #ifcfg=`echo "/root/infra_init/ifcfg-ens192"`
 #set -x 
