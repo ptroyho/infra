@@ -167,8 +167,7 @@ nameserver 8.8.4.4
 NAME
 
 echo "5.Time synchroization...."
-
-ntpdate time.stdtime.gov.tw
+sh /root/infra/timesync.sh
 
 echo ""
 
@@ -178,6 +177,6 @@ echo ""
 
 echo "==========================="
 
-sh /root/infra_init/check.sh
+sh /root/infra/check.sh
 
 
