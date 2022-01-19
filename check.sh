@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-source /root/infra_init/color
+source /root/infra/color
 
 
 ip=`ip a| grep -P 'ens[\d]{1,5}|eth[\d]{1,3}' |grep inet |awk '{print $2}'`
